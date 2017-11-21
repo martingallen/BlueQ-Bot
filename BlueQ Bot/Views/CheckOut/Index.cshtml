@@ -1,0 +1,48 @@
+﻿@model BlueQ.Bot.Services.Models.HelpdeskTicket
+
+@{
+    ViewBag.Title = "HelpdeskTicket Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Index", "CheckOut", FormMethod.Post)) { 
+
+    <fieldset>
+        <legend>Checkout &amp; Payment</legend>
+
+        <p>
+            <strong>
+                Total Price: @Model.HelpItem.Price.ToString("C")
+            </strong>
+        </p>
+
+        <p>
+            <label for="StaffDetails_StaffNumber">
+                Credit card number:
+                @Html.TextBoxFor(m => m.StaffDetails.StaffNumber, new { placeholder = "Any number will do" })
+            </label>
+        </p>
+
+        <p>
+            <label for="StaffDetails_Department">
+                Full name:
+                @Html.TextBoxFor(m => m.StaffDetails.Department, new { placeholder = "Your full name" })
+            </label>
+        </p>
+
+        <div>
+            @Html.Hidden("botId", Request.QueryString.Get("botId"))
+            @Html.Hidden("channelId", Request.QueryString.Get("channelId"))
+            @Html.Hidden("conversationId", Request.QueryString.Get("conversationId"))
+            @Html.Hidden("serviceUrl", Request.QueryString.Get("serviceUrl"))
+            @Html.Hidden("userId", Request.QueryString.Get("userId"))
+            @Html.Hidden("helpdeskTicketId", Model.TicketId)
+        </div>
+
+        <p class="buttons">
+            <input type="submit" value="Checkout!" />
+        </p>
+
+    </fieldset>
+
+}

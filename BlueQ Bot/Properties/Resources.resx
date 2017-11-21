@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HelpItemDialog_InvalidOption" xml:space="preserve">
+    <value>The HelpItem "{0} is invalid. Please try again.</value>
+    <comment>{0} is help item name</comment>
+  </data>
+  <data name="HelpItemDialog_Prompt" xml:space="preserve">
+    <value>Please select a HelpItem for "{0}" category:</value>
+    <comment>{0} is help item category</comment>
+  </data>
+  <data name="HelpItemDialog_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="HelpCategoryDialog_InvalidOption" xml:space="preserve">
+    <value>The help category "{0} is invalid. Please try again.</value>
+    <comment>{0} is help category name</comment>
+  </data>
+  <data name="HelpCategoryDialog_Prompt" xml:space="preserve">
+    <value>Please select a category:</value>
+  </data>
+  <data name="HelpCategoryDialog_Select" xml:space="preserve">
+    <value>Proceed</value>
+  </data>
+  <data name="Order_RecipientFirstName_Prompt" xml:space="preserve">
+    <value>What's the {&amp;}?</value>
+  </data>
+  <data name="RootDialog_BillingAddress_Prompt" xml:space="preserve">
+    <value>What's your billing address? Include apartment # if needed.</value>
+  </data>
+  <data name="RootDialog_Location_SelectSaved" xml:space="preserve">
+    <value>Please select your location</value>
+  </data>
+  <data name="RootDialog_Location_ShouldSave" xml:space="preserve">
+    <value>Would you like to save this location?</value>
+  </data>
+  <data name="RootDialog_HelpItem_Selected" xml:space="preserve">
+    <value>You have selected: {0}</value>
+    <comment>{0} HelpItem name</comment>
+  </data>
+  <data name="RootDialog_ConfirmTicket_Cancel" xml:space="preserve">
+    <value>Changed my mind</value>
+  </data>
+  <data name="RootDialog_ConfirmTicket_Continue" xml:space="preserve">
+    <value>Add credit card</value>
+  </data>
+  <data name="RootDialog_ConfirmTicket_Error" xml:space="preserve">
+    <value>The helpdeskTicket with ID '{0}' does not exists or is not confirmed. Please try to checkout again.</value>
+    <comment>{0} is helpdeskTicket ID</comment>
+  </data>
+  <data name="RootDialog_ConfirmTicket_Prompt" xml:space="preserve">
+    <value>The final price is {0} (including delivery). Pay securely using our payment provider.</value>
+    <comment>{0} is HelpItem price</comment>
+  </data>
+  <data name="RootDialog_ParticipantLocation_Prompt" xml:space="preserve">
+    <value>{0}, please enter your current location. Include BlueQ site name, street, house number and county if needed.</value>
+    <comment>{0} is user name</comment>
+  </data>
+  <data name="RootDialog_DeliveryDate_Prompt" xml:space="preserve">
+    <value>When would you like these delivered?</value>
+  </data>
+  <data name="RootDialog_DeliveryDate_Selected" xml:space="preserve">
+    <value>Great choice "{0}"! Delivery on {1}</value>
+    <comment>{0} is HelpItem name, {1} is delivery date</comment>
+  </data>
+  <data name="RootDialog_Menu_Cancel" xml:space="preserve">
+    <value>Keep going</value>
+  </data>
+  <data name="RootDialog_Menu_Prompt" xml:space="preserve">
+    <value>What are you looking to do?</value>
+  </data>
+  <data name="RootDialog_Menu_StartOver" xml:space="preserve">
+    <value>Start over</value>
+  </data>
+  <data name="RootDialog_HelpdeskTicket_Cancellation" xml:space="preserve">
+    <value>You have canceled the operation. What would you like to do next?</value>
+  </data>
+  <data name="RootDialog_HelpdeskTicket_Error" xml:space="preserve">
+    <value>Oops! Something went wrong :(. Technical Details: {0}</value>
+    <comment>{0} exception helpCategoryName</comment>
+  </data>
+  <data name="RootDialog_Receipt_HelpdeskID" xml:space="preserve">
+    <value>Helpdesk Ticket Identifier</value>
+  </data>
+  <data name="RootDialog_Receipt_Text" xml:space="preserve">
+    <value>**Your Helpdesk Ticket {0} has been processed!**
+The **{1}** will be sent to **{2} {3}** with the following note:
+		"{4}".
+Thank you for using BlueQ Helpdesk.
+Here is a log of the actions taken for your records:</value>
+    <comment>{0} is helpdeskTicket ID, {1} is HelpItem name, {2}{3} is first and last name, {4} is note</comment>
+  </data>
+  <data name="RootDialog_Receipt_Title" xml:space="preserve">
+    <value>BlueQ Helpdesk Receipt</value>
+  </data>
+  <data name="RootDialog_Support_Message" xml:space="preserve">
+    <value>Support will contact you shortly. Have a nice day :)</value>
+  </data>
+  <data name="RootDialog_TooManyAttempts" xml:space="preserve">
+    <value>Oops! Something went wrong after too many invalid attemps. Maybe you can start over again.</value>
+  </data>
+  <data name="RootDialog_Welcome_Error" xml:space="preserve">
+    <value>That is not a valid option. Please try again.</value>
+  </data>
+  <data name="RootDialog_Welcome_Message" xml:space="preserve">
+    <value>Welcome to BlueQ Helpdesk. You can now answer your helpdesk queries or talk to support without leaving this bot.</value>
+  </data>
+  <data name="RootDialog_Welcome_ITOption" xml:space="preserve">
+    <value>IT</value>
+  </data>
+  <data name="RootDialog_Welcome_FinanceOption" xml:space="preserve">
+    <value>Finance</value>
+  </data>
+  <data name="RootDialog_Welcome_FMOption" xml:space="preserve">
+    <value>Facilities Management</value>
+  </data>
+  <data name="RootDialog_Welcome_HROption" xml:space="preserve">
+    <value>Human Resources</value>
+  </data>
+  <data name="RootDialog_Welcome_Subtitle" xml:space="preserve">
+    <value>The easy way to support our BlueQ staff!</value>
+  </data>
+  <data name="RootDialog_Welcome_OtherSupport" xml:space="preserve">
+    <value>Talk to support</value>
+  </data>
+  <data name="RootDialog_Welcome_Title" xml:space="preserve">
+    <value>Welcome to the BlueQ Helpdesk</value>
+  </data>
+  <data name="SettingsDialog_Location_Entered" xml:space="preserve">
+    <value>Thanks! Your {0} location was updated to {1}.</value>
+    <comment>{0} is location name, {1} is address</comment>
+  </data>
+  <data name="SettingsDialog_Location_Prompt" xml:space="preserve">
+    <value>What's your location? Include BlueQ site or street name, number, county and country.</value>
+  </data>
+  <data name="SettingsDialog_Edit_Location" xml:space="preserve">
+    <value>3. Edit locations</value>
+  </data>
+  <data name="SettingsDialog_Edit_Email" xml:space="preserve">
+    <value>1. Edit email</value>
+  </data>
+  <data name="SettingsDialog_Edit_PhoneNumber" xml:space="preserve">
+    <value>2. Edit phone number</value>
+  </data>
+  <data name="SettingsDialog_Email_Entered" xml:space="preserve">
+    <value>Thanks! Your email was updated to {0}.</value>
+    <comment>{0} is email</comment>
+  </data>
+  <data name="SettingsDialog_PhoneNumber_Entered" xml:space="preserve">
+    <value>Thanks! Your phone number was updated to {0}.</value>
+    <comment>{0} is phone number</comment>
+  </data>
+  <data name="SettingsDialog_PromptString" xml:space="preserve">
+    <value>Type your {0} or use (B)ack to return to the menu.</value>
+    <comment>{0} is ask</comment>
+  </data>
+  <data name="SettingsDialog_PromptString_CurrentValue" xml:space="preserve">
+    <value>This is your current {0}: {1}.
+Type a new {0} if you need to update, or use (B)ack to return to the menu.</value>
+    <comment>{0} is ask, {1} is current value</comment>
+  </data>
+  <data name="SettingsDialog_PromptString_Retry" xml:space="preserve">
+    <value>Something doesn't seem quite right with that {0}. Please try again.</value>
+    <comment>{0} is ask</comment>
+  </data>
+  <data name="SettingsDialog_Prompt" xml:space="preserve">
+    <value>Want to make changes to your personal info or addresses? You're in the right place.</value>
+  </data>
+  <data name="SettingsDialog_PromptLocation_Ask" xml:space="preserve">
+    <value>Which address do you wish to update?</value>
+  </data>
+  <data name="RootDialog_Receipt_StaffNumber" xml:space="preserve">
+    <value>Staff Number</value>
+  </data>
+  <data name="RootDialog_Receipt_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+</root>

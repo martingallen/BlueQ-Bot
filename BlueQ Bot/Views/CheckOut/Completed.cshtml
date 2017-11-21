@@ -1,0 +1,20 @@
+﻿@model BlueQ.Bot.Services.Models.HelpdeskTicket
+
+@{
+    ViewBag.Title = "Helpdesk Ticket Processed";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>
+    <strong>Your helpdesk ticket <em>@Model.TicketId</em> has been processed!</strong>
+</p>
+
+<p>
+    The <strong>@Model.HelpItem.Title</strong> will be sent to <strong>@Model.RecipientFirstName @Model.RecipientLastName</strong> with the following note:
+</p>
+<blockquote>
+    @Model.Note
+</blockquote>
+<p>
+    Thanks you for using BlueQ Helpdesk
+</p>
